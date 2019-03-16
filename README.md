@@ -1,6 +1,14 @@
 # Safe Join
 
-a tiny zero dependency library to join strings with slashes in them that isn't too smart about it:
+a tiny zero dependency library to join strings with slashes in them that isn't too smart about it!
+
+## Install
+
+```
+yarn add safe-join # or npm i safe-join
+```
+
+## Usage
 
 ```ts
 import join from 'safe-join'
