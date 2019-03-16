@@ -1,6 +1,6 @@
 {
   "name": "safe-join",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/index.js",
   "umd:main": "dist/safe-join.umd.production.js",
   "module": "dist/safe-join.es.production.js",
