@@ -7,6 +7,9 @@ describe('join', () => {
     expect(safeJoin('foo', '/bar')).toEqual('foo/bar')
     expect(safeJoin('foo/', '/bar')).toEqual('foo/bar')
   })
+  it('doesnt swallow doubleslashes', () => {
+    expect(safeJoin('foo//bar', 'baz')).toEqual('foo//bar/baz')
+  })
   it('works with http', () => {
     expect(safeJoin('http://foo', 'bar')).toEqual('http://foo/bar')
   })

@@ -1,28 +1,28 @@
 {
   "/Users/swyx/Work/safe-join/dist/safeJoin.cjs.development.js": {
-    "bundled": 527,
-    "minified": 236,
-    "gzipped": 171
+    "bundled": 272,
+    "minified": 165,
+    "gzipped": 129
   },
   "/Users/swyx/Work/safe-join/dist/safeJoin.cjs.production.js": {
-    "bundled": 527,
-    "minified": 236,
-    "gzipped": 171
+    "bundled": 272,
+    "minified": 165,
+    "gzipped": 129
   },
   "/Users/swyx/Work/safe-join/dist/safeJoin.umd.development.js": {
-    "bundled": 831,
-    "minified": 377,
-    "gzipped": 246
+    "bundled": 558,
+    "minified": 306,
+    "gzipped": 206
   },
   "/Users/swyx/Work/safe-join/dist/safeJoin.umd.production.js": {
-    "bundled": 831,
-    "minified": 377,
-    "gzipped": 246
+    "bundled": 558,
+    "minified": 306,
+    "gzipped": 206
   },
   "/Users/swyx/Work/safe-join/dist/safeJoin.es.production.js": {
-    "bundled": 504,
-    "minified": 214,
-    "gzipped": 160,
+    "bundled": 249,
+    "minified": 143,
+    "gzipped": 114,
     "treeshaked": {
       "rollup": {
         "code": 0,
