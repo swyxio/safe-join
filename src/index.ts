@@ -1,4 +1,4 @@
-export default function safeJoin(...args: string[]) {
+export function safeJoin(...args: string[]) {
   return args.reduce(_safeJoin)
 }
 

@@ -11,15 +11,15 @@ yarn add safe-join # or npm i safe-join
 ## Usage
 
 ```ts
-import join from 'safe-join'
-join('foo', 'bar') // 'foo/bar'
-join('foo/', 'bar') // 'foo/bar'
-join('foo/', '/bar') // 'foo/bar'
-join('foo', '/bar') // 'foo/bar'
-join('http://foo/', '/bar') // 'http://foo/bar'
+import { safeJoin } from 'safe-join'
+safeJoin('foo', 'bar') // 'foo/bar'
+safeJoin('foo/', 'bar') // 'foo/bar'
+safeJoin('foo/', '/bar') // 'foo/bar'
+safeJoin('foo', '/bar') // 'foo/bar'
+safeJoin('http://foo/', '/bar') // 'http://foo/bar'
 
 // works on multiple args too
-join('foo', '/bar/', '/baz') // 'foo/bar/baz'
+safeJoin('foo', '/bar/', '/baz') // 'foo/bar/baz'
 // etc
 ```
 
@@ -27,7 +27,7 @@ You might normally use path.join for this in Node but this works in the browser,
 
 Uses typescript because why not.
 
-It does NOT handle query strings for you e.g. `join("https://foo", "bar", "&search=baz")` so be sure to handle those on your own. or use https://github.com/jfromaniello/url-join
+It does NOT handle query strings for you e.g. `safeJoin("https://foo", "bar", "&search=baz")` so be sure to handle those on your own. or use https://github.com/jfromaniello/url-join
 
 ## entire source code
 

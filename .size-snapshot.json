@@ -1,0 +1,36 @@
+{
+  "/Users/swyx/Work/safe-join/dist/safeJoin.cjs.development.js": {
+    "bundled": 527,
+    "minified": 236,
+    "gzipped": 171
+  },
+  "/Users/swyx/Work/safe-join/dist/safeJoin.cjs.production.js": {
+    "bundled": 527,
+    "minified": 236,
+    "gzipped": 171
+  },
+  "/Users/swyx/Work/safe-join/dist/safeJoin.umd.development.js": {
+    "bundled": 831,
+    "minified": 377,
+    "gzipped": 246
+  },
+  "/Users/swyx/Work/safe-join/dist/safeJoin.umd.production.js": {
+    "bundled": 831,
+    "minified": 377,
+    "gzipped": 246
+  },
+  "/Users/swyx/Work/safe-join/dist/safeJoin.es.production.js": {
+    "bundled": 504,
+    "minified": 214,
+    "gzipped": 160,
+    "treeshaked": {
+      "rollup": {
+        "code": 0,
+        "import_statements": 0
+      },
+      "webpack": {
+        "code": 951
+      }
+    }
+  }
+}
